@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+​
+<head>  
+    <script src="lazysizes.min.js" async=""></script>
+    <link rel="preconnect" href="//app.usercentrics.eu">
+    <link rel="preconnect" href="//api.usercentrics.eu">
+    <link rel="preconnect" href="//privacy-proxy.usercentrics.eu">
+    <link rel="preload" href="//app.usercentrics.eu/browser-ui/latest/loader.js" as="script">
+    <link rel="preload" href="//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" a ns="script">
+    <script id="usercentrics-cmp" data-settings-id="MHrh9_Szi" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" async></script>
+    <script type="application/javascript" src="https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"></script>
+  
+​
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;400;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Commissioner', sans-serif;
+            background-color: rgb(178, 210, 240);
+        }
+​
+        h1 {
+            font-weight: 800;
+        }
+​
+        a {
+            font-weight: 400;
+        }
+    </style>
+​
+    <!--RECAPTCHA v2-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!--END-->
+​
+    <!-- RECAPTCHA v3-->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdPKdoZAAAAAMd1gOFL_c_gE2_7zK-OTn2VSXAk"></script>
+    <script>
+        function onSubmit(token) {
+            alert("This is just a demo, but if this shows, it means that the logic works :))")
+        }
+    </script>
+​
+    <script>
+        _mtm = window._mtm = window._mtm || [];
+        _mtm.push({"consentInitialized": "consents_initialized"});
+        _mtm.push({"consentChanged": "consent_changed"});
+     </script>
+​
+​
+​
+</head>
+​
+<body>
+    <h1>Welcome to SDP_CMPv2 Test</h1>
+    <a>This page serves as a testing page to all known supported technologies of SDP with our CMPv2. All of this
+        technologies will also work with CMPv2 if TCF is disabled.</a>
+  
+​
+    <h2>Known Working Technologies</h2>
+​
+    <h3>Youtube</h3>
+    <div class="sdp-tech">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nQmatrIjyVM" class="lazyload" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+    </div>
+​
+    <h3>Facebook</h3>
+    <div class="sdp-tech">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fusercentrics%2Fposts%2F1031039867642333&show_text=true&width=500" class="lazyload" width="500" height="525" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+       </div>
+​
+    <h3>Twitter Blockquote</h3>
+    <div class="sdp-tech">
+        <blockquote class="twitter-tweet" >
+            <p lang="en" dir="ltr">🇺🇸The <a
+                    href="https://twitter.com/hashtag/California?src=hash&amp;ref_src=twsrc%5Etfw">#California</a>
+                Attorney General just issued a third set of proposed modifications to <a
+                    href="https://twitter.com/hashtag/CCPA?src=hash&amp;ref_src=twsrc%5Etfw">#CCPA</a> for public
+                consultation. The proposed modifications provide guidance on opt-out methods for business.<a
+                    href="https://twitter.com/hashtag/dataprotection?src=hash&amp;ref_src=twsrc%5Etfw">#dataprotection</a>
+                <a href="https://twitter.com/hashtag/privacy?src=hash&amp;ref_src=twsrc%5Etfw">#privacy</a> <a
+                    href="https://twitter.com/hashtag/data?src=hash&amp;ref_src=twsrc%5Etfw">#data</a> <a
+                    href="https://twitter.com/hashtag/legaltech?src=hash&amp;ref_src=twsrc%5Etfw">#legaltech</a> <a
+                    href="https://twitter.com/hashtag/compliance?src=hash&amp;ref_src=twsrc%5Etfw">#compliance</a>
+                <br><br>👉<a href="https://t.co/NCc0QHgykl">https://t.co/NCc0QHgykl</a></p>&mdash; Usercentrics GmbH
+            (@usercentrics) <a
+                href="https://twitter.com/usercentrics/status/1316747515857981440?ref_src=twsrc%5Etfw">October 15,
+                2020</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+​
+    <h3>Pinterest</h3>
+    <div class="sdp-tech">
+        <iframe src="https://assets.pinterest.com/ext/embed.html?id=735916395353076469" class="lazyload" class="lazyload" height="553" width="345"
+            frameborder="0" scrolling="no"></iframe>
+    </div>
+​
+    <h3>Google Maps</h3>
+    <div class="sdp-tech">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10650.694548261601!2d11.5720299!3d48.1358169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3b058c3f696f9684!2sUsercentrics%20GmbH!5e0!3m2!1sen!2spt!4v1603273386040!5m2!1sen!2spt"
+            class="lazyload" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </div>
+​
+    <h3>reCAPTCHAv2</h3>
+    <div class="sdp-tech">
+        <form action="?" method="POST">
+            <div class="g-recaptcha" data-sitekey="6LdNKtoZAAAAABrk0MNSwoLhqxzgb2-YFWLLq35w"></div>
+            <br />
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+​
+    <h3>reCAPTCHAv3</h3>
+    <div class="sdp-tech">
+        <button class="g-recaptcha" data-sitekey="6LdPKdoZAAAAAMd1gOFL_c_gE2_7zK-OTn2VSXAk" data-callback='onSubmit'
+            data-action='submit' value="submit">Submit</button>
+    </div>
+​
+</body>
